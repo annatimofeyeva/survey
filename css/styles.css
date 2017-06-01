@@ -1,4 +1,16 @@
-#output {
-  margin: 20px;
-  font-size: 32px;
+h1 {
+
+}
+
+label {
+  color: #e27380;
+  font-size: 24px;
+}
+#add1 {
+  width: 40%;
+  border-radius: 10px;
+}
+.radio {
+margin: 20px;
+font-size: 30px;
 }
