@@ -2,7 +2,7 @@ label {
   color: #e27380;
   font-size: 24px;
 }
-#add1 {
+#add {
   width: 40%;
   border-radius: 10px;
 }
@@ -23,6 +23,11 @@ font-size: 30px;
   font-size: 30px;
   border-radius: 10px;
 }
-#output{
- display: none;
+.well{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+#your_name{
+  border-radius: 10px;
 }

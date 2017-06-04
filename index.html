@@ -10,19 +10,19 @@
   <body>
     <div class="container">
       <h1>Survey</h1>
-      <form id="add">
+    <form id="add">
         <div class="form-group">
-        <label for="add1">Enter your name</label>
-        <input id="add1" class="form-control" type="text">
+        <label for="add">Enter your name</label>
+        <input id="your_name" class="form-control" type="text">
         </div>
-      </form>
-      <form id="add2">
-       <div class="form-group">
-          <label for="born">Date of birth:</label>
-          <input id="born" class="form-control" type="date">
-        </div>
-      </form>
-      <form id="add3">
+    </form>
+    <form id="add2">
+     <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+    </form>
+    <form id="add2">
       <div class="form-group">
           <label for="add1">Your favorite food</label>
       </div>
@@ -41,7 +41,7 @@
       <div class="radio">
         <label>
           <input type="radio" name="flavor" value="cookiesandcream">
-          Cookies & Cream
+          Cookies and Cream
         </label>
       </div>
     </form>
@@ -51,10 +51,9 @@
     <input id="color" class="form-control" type="color">
      </div>
     </form>
-    <div id="output">
-    <div>
-    <button type="button" class="btn btn-primary">Primary</button
-    </div>
+    <button id="submit_button" type="submit" class="btn btn-default">Submit</button>
+    <div class="well">
+    <div id="output"></div>
     </div>
   </body>
 </html>
